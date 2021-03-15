@@ -44,6 +44,7 @@ class _HomeState extends State<Home> {
                      });
                    },
                    decoration: InputDecoration(
+                     prefixIcon: Icon(Icons.search,color: Colors.grey[700],),
                      hintText: 'Search City Name',
                        hintStyle: TextStyle(
                          color: Colors.grey[700]
