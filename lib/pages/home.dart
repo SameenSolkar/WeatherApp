@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
                          child: Text(
                            data['weather'],
                            style: TextStyle(
-                             fontSize: 50.0,
+                             fontSize: 30.0,
                              color: Colors.orange[600],
                            ),
                          ),
@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
                  child: Text(
                    data['city'],
                    style: TextStyle(
-                     fontSize: 30.0,
+                     fontSize: 25.0,
                      color: Colors.orange[600],
                    ),
                  ),
